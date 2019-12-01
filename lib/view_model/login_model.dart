@@ -5,8 +5,8 @@ import 'package:idea_list/view_model/form_model_helper.dart';
 class LoginModel extends ChangeNotifier with FormModelHelper {
   final UserApi userApi;
   final formKey = GlobalKey<FormState>();
-  final emailController = TextEditingController(text: 'bani@email.com');
-  final passwordController = TextEditingController(text: 'bani1234');
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
 
   bool isSubmitting = false;
 

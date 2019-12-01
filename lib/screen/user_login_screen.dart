@@ -99,6 +99,7 @@ class _UserLoginScreenState extends State<UserLoginScreen> {
                     controller: loginModel.emailController,
                   ),
                   TextFormField(
+                    obscureText: true,
                     decoration: InputDecoration(
                       labelText: 'Password',
                     ),
